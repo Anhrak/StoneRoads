@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "stoneroads",
+  "name": "Stone Roads",
+  "authors": [
+    "Uri"
+  ],
+  "description": "A mod for adding Stone-oriented roadways and features!",
+  "version": "1.0.0"
+}

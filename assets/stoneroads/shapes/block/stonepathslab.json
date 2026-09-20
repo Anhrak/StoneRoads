@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"andesite12": "/Users/UDV/AppData/Roaming/Vintagestory/assets/survival/textures/block/stone/cobblestone/fanned/andesite1",
+		"andesite": "/Users/UDV/AppData/Roaming/Vintagestory/assets/survival/textures/block/stone/drystonefence/andesite",
+		"andesite2": "/Users/UDV/AppData/Roaming/Vintagestory/assets/survival/textures/block/stone/gravel/andesite"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 6.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#andesite2", "uv": [ 0.0, 3.0, 16.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#andesite2", "uv": [ 0.0, 2.0, 16.0, 8.0 ] },
+				"south": { "texture": "#andesite2", "uv": [ 0.0, 2.0, 16.0, 8.0 ] },
+				"west": { "texture": "#andesite2", "uv": [ 0.0, 2.0, 16.0, 8.0 ] },
+				"up": { "texture": "#andesite2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#andesite2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		},
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 6.0, 0.0 ],
+			"to": [ 16.0, 7.0, 16.0 ],
+			"rotationOrigin": [ 0.0, 6.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#andesite", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+				"east": { "texture": "#andesite", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+				"south": { "texture": "#andesite", "uv": [ 0.0, 0.0, 16.0, 1.0 ], "autoUv": false },
+				"west": { "texture": "#andesite", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+				"up": { "texture": "#andesite12", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#andesite", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}
