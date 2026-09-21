@@ -1,0 +1,13 @@
+[
+    {
+        "ingredientPattern": "H__,CR_,RRR",
+        "ingredients": {
+            "R": { "type": "block", "code": "<EDI for Ashlar bricks>", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+	    	"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true },
+	    	"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "stoneroads:stonepillarbase-{rock}", "quantity": 1}
+    }
+]

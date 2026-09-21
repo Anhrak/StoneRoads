@@ -1,0 +1,31 @@
+[
+    {
+        "ingredientPattern": "SS,CG",
+        "ingredients": {
+            "G": { "type": "block", "code": "<EDI for Ashlar bricks>", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+            "S": { "type": "block", "code": "<EDI for Ashlar bricks>", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+            "C": { "type": "item", "code": "<EDI for Clay>", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "block", "code": "stoneroads:cobbledpath-{rock}", "quantity": 2}
+    },
+    {
+        "ingredientPattern": "P",
+        "ingrdients": {
+            "P": { "type": "block", "code": "stoneroads:cobbledpath-*", "name": "rock" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": { "type": "block", "code": "stoneroads:cobbledpathslab-{rock}", "quantity": 2}
+    },
+    {
+        "ingredientPattern": "SS",
+        "ingredients": {
+            "S": { "type": "block", "code": "stoneroads:cobbledpathslab-*", "name": "rock" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": { "type": "block", "code": "stoneroads:cobbledpath-{rock}"}
+    }
+]
