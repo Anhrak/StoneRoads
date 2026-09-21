@@ -1,0 +1,46 @@
+[
+	{
+		"file": "game:blocktypes/stone/rock", 
+		"op": "addmerge",
+		"path": "/crushingPropsByType",
+		"value":
+		{
+			"rock-andesite": {				crushedStack: { type: "block", code: "gravel-andesite" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-chalk": {					crushedStack: { type: "block", code: "gravel-chalk" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-chert": {					crushedStack: { type: "block", code: "gravel-chert" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-conglomerate": {			crushedStack: { type: "block", code: "gravel-conglomerate" },	quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-limestone": {				crushedStack: { type: "block", code: "gravel-limestone" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-claystone": {				crushedStack: { type: "block", code: "gravel-claystone" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-granite": {				crushedStack: { type: "block", code: "gravel-granite" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-sandstone": {				crushedStack: { type: "block", code: "gravel-sandstone" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-shale": {					crushedStack: { type: "block", code: "gravel-shale" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-basalt": {				crushedStack: { type: "block", code: "gravel-basalt" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-peridotite": {			crushedStack: { type: "block", code: "gravel-peridotite" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-phyllite": {				crushedStack: { type: "block", code: "gravel-phyllite" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-slate": {					crushedStack: { type: "block", code: "gravel-slate" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"rock-bauxite": {				crushedStack: { type: "block", code: "gravel-bauxite" },		quantity: { avg: 1 },		hardnessTier: 2		}
+		}
+	},
+	{
+		"file": "game:blocktypes/stone/gravel", 
+		"op": "addmerge",
+		"path": "/crushingPropsByType",
+		"value":
+		{
+			"gravel-andesite": {			crushedStack: { type: "block", code: "sand-andesite" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-chalk": {				crushedStack: { type: "block", code: "sand-chalk" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-chert": {				crushedStack: { type: "block", code: "sand-chert" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-conglomerate": {		crushedStack: { type: "block", code: "sand-conglomerate" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-limestone": {			crushedStack: { type: "block", code: "sand-limestone" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-claystone": {			crushedStack: { type: "block", code: "sand-claystone" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-granite": {				crushedStack: { type: "block", code: "sand-granite" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-sandstone": {			crushedStack: { type: "block", code: "sand-sandstone" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-shale": {				crushedStack: { type: "block", code: "sand-shale" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-basalt": {				crushedStack: { type: "block", code: "sand-basalt" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-peridotite": {			crushedStack: { type: "block", code: "sand-peridotite" },		quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-phyllite": {			crushedStack: { type: "block", code: "sand-phyllite" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-slate": {				crushedStack: { type: "block", code: "sand-slate" },			quantity: { avg: 1 },		hardnessTier: 2		},
+			"gravel-bauxite": {				crushedStack: { type: "block", code: "sand-bauxite" },			quantity: { avg: 1 },		hardnessTier: 2		}
+		}
+	}
+]

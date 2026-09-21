@@ -1,0 +1,506 @@
+[
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-bauxite",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-bauxite", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-bauxite-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-bauxite", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-bauxite-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-bauxite", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-slate",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-slate", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-slate-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-slate", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-slate-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-slate", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-phyllite",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-phyllite", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-phyllite-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-phyllite", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-phyllite-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-phyllite", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-peridotite",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-peridotite", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-peridotite-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-peridotite", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-peridotite-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-peridotite", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-basalt",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-basalt", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-basalt-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-basalt", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-basalt-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-basalt", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-shale",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-shale", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-shale-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-shale", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-shale-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-shale", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-sandstone",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-sandstone", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-sandstone-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-sandstone", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-sandstone-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-sandstone", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-granite",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-granite", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-granite-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-granite", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-granite-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-granite", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-claystone",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-claystone", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-claystone-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-claystone", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-claystone-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-claystone", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-limestone",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-limestone", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-limestone-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-limestone", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-limestone-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-limestone", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-conglomerate",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-conglomerate", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-conglomerate-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-conglomerate", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-conglomerate-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-conglomerate", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-chert",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-chert", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-chert-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-chert", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-chert-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-chert", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-chalk",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-chalk", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-chalk-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-chalk", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-chalk-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-chalk", quantity: 2  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebricks-andesite",}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-andesite", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickstairs-andesite-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-andesite", quantity: 3  }
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:stonebrickslab-andesite-*"}
+		},
+		width: 1,
+		height: 3,
+		shapeless: true,
+		output: { type: "item", code: "game:stonebrick-andesite", quantity: 2  }
+	},
+]

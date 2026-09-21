@@ -1,0 +1,618 @@
+[
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-bauxite"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-bauxite", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-bauxite-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-bauxite", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-bauxite-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-bauxite", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-bauxite"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-bauxite", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-shale"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-shale", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-shale-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-shale", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-shale-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-shale", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-shale"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-shale", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-phyllite"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-phyllite", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-phyllite-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-phyllite", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-phyllite-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-phyllite", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-phyllite"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-phyllite", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-peridotite"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-peridotite", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-peridotite-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-peridotite", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-peridotite-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-peridotite", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-peridotite"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-peridotite", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-basalt"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-basalt", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-basalt-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-basalt", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-basalt-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-basalt", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-basalt"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-basalt", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-slate"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-slate", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-slate-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-slate", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-slate-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-slate", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-slate"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-slate", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-sandstone"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-sandstone", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-sandstone-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-sandstone", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-sandstone-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-sandstone", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-sandstone"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-sandstone", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-granite"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-granite", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-granite-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-granite", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-granite-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-granite", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-granite"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-granite", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-claystone"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-claystone", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-claystone-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-claystone", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-claystone-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-claystone", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-claystone"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-claystone", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-limestone"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-limestone", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-limestone-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-limestone", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-limestone-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-limestone", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-limestone"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-limestone", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-andesite"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-andesite", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-andesite-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-andesite", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-andesite-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-andesite", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-andesite"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-andesite", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-chalk"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-chalk", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-chalk-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-chalk", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-chalk-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-chalk", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-chalk"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-chalk", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-chert"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-chert", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-chert-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-chert", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-chert-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-chert", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-chert"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-chert", quantity: 8}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestone-conglomerate"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-conglomerate", quantity: 4}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestonestairs-conglomerate-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-conglomerate", quantity: 3}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:cobblestoneslab-conglomerate-*"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-conglomerate", quantity: 2}
+	},
+	{
+		ingredientPattern: "H,C,B",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"B": { type: "block", code: "game:drystone-conglomerate"}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:stone-conglomerate", quantity: 8}
+	}
+]

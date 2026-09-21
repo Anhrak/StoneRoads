@@ -1,0 +1,142 @@
+[
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-andesite",					quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-andesite",				quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-basalt",					quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-basalt",				quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-bauxite",					quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-bauxite",				quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-chalk",					quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-chalk",				quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-chert",					quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-chert",				quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-claystone",				quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-claystone",			quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-conglomerate",				quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-conglomerate",			quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-granite",					quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-granite",				quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-limestone",				quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-limestone",			quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-peridotite",				quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-peridotite",			quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-phyllite",					quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-phyllite",				quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-sandstone",				quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-sandstone",			quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-shale",					quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-shale",				quantity: 4	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpath-slate",					quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpathslab-slate",				quantity: 4	}
+	}
+]

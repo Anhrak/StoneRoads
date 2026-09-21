@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "rands",
+  "name": "Rock & Stone Reprocessing",
+  "authors": [
+    "Uri"
+  ],
+  "description": "A mod for recycling (unused) rock blocks and stone brick roadways",
+  "version": "1.2.1"
+}

@@ -1,0 +1,142 @@
+[
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-bauxite"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-bauxite", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-slate"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-slate", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-phyllite"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-phyllite", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-peridotite"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-peridotite", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-basalt"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-basalt", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-shale"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-shale", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-sandstone"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-sandstone", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-granite"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-granite", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-claystone"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-claystone", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-limestone"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-limestone", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-conglomerate"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-conglomerate", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-chert"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-chert", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-chalk"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-chalk", quantity: 2  }
+	},
+	{
+		ingredientPattern: "RRR,RHR,RRR",
+		ingredients: {
+			"R": { type: "item", code: "game:stone-andesite"},
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 2 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rock-andesite", quantity: 2  }
+	}
+]

@@ -1,0 +1,296 @@
+[
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-andesite",			quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-andesite", 				quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-andesite",				quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-andesite",					quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-andesite",		quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-andesite",					quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-basalt",				quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-basalt", 					quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-basalt",					quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-basalt",					quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-basalt",			quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-basalt",					quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-bauxite",			quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-bauxite", 					quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-bauxite",				quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-bauxite",					quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-bauxite",			quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-bauxite",					quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-chalk",				quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-chalk", 					quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-chalk",					quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-chalk",					quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-chalk",			quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-chalk",					quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-chert",				quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-chert", 					quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-chert",					quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-chert",					quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-chert",			quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-chert",					quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-claystone",			quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-claystone", 				quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-claystone",				quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-claystone",				quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-claystone",		quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-claystone",				quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-conglomerate",		quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-conglomerate", 			quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-conglomerate",			quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-conglomerate",				quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-conglomerate",	quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-conglomerate",				quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-granite",			quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-granite", 					quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-granite",				quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-granite",					quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-granite",			quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-granite",					quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-limestone",			quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-limestone", 				quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-limestone",				quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-limestone",				quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-limestone",		quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-limestone",				quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-peridotite",			quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-peridotite", 				quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-peridotite",				quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-peridotite",				quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-peridotite",		quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-peridotite",				quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-phyllite",			quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-phyllite", 				quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-phyllite",				quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-phyllite",					quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-phyllite",		quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-phyllite",					quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-sandstone",			quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-sandstone", 				quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-sandstone",				quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-sandstone",				quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-sandstone",		quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-sandstone",				quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-shale",				quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-shale", 					quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-shale",					quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-shale",					quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-shale",			quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-shale",					quantity: 1	}
+	},
+	{
+		ingredientPattern: 	"AAA,SSS,GGG",
+		ingredients:		{
+								"A": { 	type: "item",	code: "game:stonebrick-slate",				quantity: 4 },
+								"S": { 	type: "block",	code: "game:sand-slate", 					quantity: 1 },
+								"G": { 	type: "block",	code: "game:gravel-slate",					quantity: 1 }
+							},
+		width:				3,
+		height:				3,
+		output:				{			type: "block",	code: "brickpath-slate",					quantity: 6	}
+	},
+	{
+		ingredientPattern: 	"BB",
+		ingredients:		{
+								"B": { 	type: "block",	code: "brickpathslab-slate",			quantity: 1 }
+							},
+		width:				2,
+		height:				1,
+		shapeless: 			true,
+		output:				{			type: "block",	code: "brickpath-slate",					quantity: 1	}
+	}
+]

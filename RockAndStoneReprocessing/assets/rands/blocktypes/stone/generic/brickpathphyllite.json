@@ -1,0 +1,76 @@
+{
+	code:					"brickpath-phyllite",
+	behaviors:				[
+								{ name: "Lockable" }
+							],
+	attributes:				{
+								reinforcable: true,
+								mapColorCode: "road",
+								liquidBarrierOnSides: [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ],
+								inContainerTexture:
+								{
+									up: 	{ base: "block/stone/brickpath/phyllitetop1"},
+									north:	{ base: "block/stone/brickpath/phylliteside"},
+									south:	{ base: "block/stone/brickpath/phylliteside"},
+									west:	{ base: "block/stone/brickpath/phylliteside"},
+									east:	{ base: "block/stone/brickpath/phylliteside"},
+									down:	{ base: "block/stone/brickpath/phyllitebottom"}
+								}
+							},
+	shape: 					{
+								base: "game:block/basic/cube-lowered"
+							},
+	textures: 				{
+								up:		{ 
+										base: "block/stone/brickpath/phyllitetop1",
+										alternates:
+											[
+											{base: "block/stone/brickpath/phyllitetop2" },
+											{base: "block/stone/brickpath/phyllitetop3" },
+											{base: "block/stone/brickpath/phyllitetop4" },
+											{base: "block/stone/brickpath/phyllitetop5" },
+											{base: "block/stone/brickpath/phyllitetop6" }
+											]
+										},
+								north:	{ base: "block/stone/brickpath/phylliteside"},
+								south:	{ base: "block/stone/brickpath/phylliteside"},
+								west:	{ base: "block/stone/brickpath/phylliteside"},
+								east:	{ base: "block/stone/brickpath/phylliteside"},
+								down:	{ base: "block/stone/brickpath/phyllitebottom"}
+							},
+	resistance:				2.4,
+	walkspeedmultiplier:	1.50,
+	creativeinventory:		{
+								"general": ["*"],
+								"decorative": ["*"]
+							},
+	blockmaterial:			"Gravel",
+	replaceable:			900,
+	lightAbsorption:		99,
+	faceCullMode:			"FlushExceptTop",
+	sideopaque:				{
+								all: false,
+								down: true
+							},
+	sidesolid:				{
+								all: true,
+								up: false
+							},
+	selectionbox:			{ x1: 0, y1: 0, z1:0, x2: 1, y2: 0.9375, z2: 1 },
+	collisionbox:			{ x1: 0, y1: 0, z1:0, x2: 1, y2: 0.9375, z2: 1 },
+	heldTpIdleAnimation:	"holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform:		{
+								translation: { x: -1.23, y: -0.91, z: -0.8 },
+								rotation: { x: -2, y: 25, z: -78 },
+								scale: 0.4
+							},
+	drops:					[
+							{ type: "block", code: "brickpath-phyllite" }
+							],
+	sounds:					{
+								place: "game:block/gravel",
+								break: "game:block/gravel",
+								hit: "game:block/gravel",
+								walk: "game:walk/stone"
+							}
+}
