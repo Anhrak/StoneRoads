@@ -8,52 +8,49 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"andesite12": "/Users/UDV/AppData/Roaming/Vintagestory/assets/survival/textures/block/stone/cobblestone/fanned/andesite1",
-		"andesite": "/Users/UDV/AppData/Roaming/Vintagestory/assets/survival/textures/block/stone/drystonefence/andesite",
-		"andesite2": "/Users/UDV/AppData/Roaming/Vintagestory/assets/survival/textures/block/stone/gravel/andesite",
-		"oak1": "/Users/UDV/AppData/Roaming/Vintagestory/assets/survival/textures/block/wood/planks/oak1"
+		"filling": "game:block/stone/gravel/andesitegravel1",
+		"surface": "game:block/stone/gravel/andesitegravel1",
+		"wood": "game:block/stone/gravel/andesitegravel1"
+
 	},
 	"elements": [
 		{
-			"name": "Cube",
+			"name": "filling",
 			"from": [ 0.0, 12.0, 0.0 ],
 			"to": [ 16.0, 14.0, 16.0 ],
-			"rotationOrigin": [ 0.0, 12.0, 0.0 ],
 			"faces": {
-				"north": { "texture": "#andesite2", "uv": [ 0.0, 3.0, 16.0, 16.0 ], "autoUv": false },
-				"east": { "texture": "#andesite2", "uv": [ 0.0, 2.0, 16.0, 4.0 ] },
-				"south": { "texture": "#andesite2", "uv": [ 0.0, 2.0, 16.0, 4.0 ] },
-				"west": { "texture": "#andesite2", "uv": [ 0.0, 2.0, 16.0, 4.0 ] },
-				"up": { "texture": "#andesite2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-				"down": { "texture": "#andesite2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+				"north": 	{ "texture": "#filling", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": 	{ "texture": "#filling", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": 	{ "texture": "#filling", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": 	{ "texture": "#filling", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": 		{ "texture": "#filling", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": 	{ "texture": "#filling", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
 			}
 		},
 		{
-			"name": "Cube2",
+			"name": "surface",
 			"from": [ 0.0, 14.0, 0.0 ],
 			"to": [ 16.0, 15.0, 16.0 ],
-			"rotationOrigin": [ 0.0, 14.0, 0.0 ],
 			"faces": {
-				"north": { "texture": "#andesite", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
-				"east": { "texture": "#andesite", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
-				"south": { "texture": "#andesite", "uv": [ 0.0, 0.0, 16.0, 1.0 ], "autoUv": false },
-				"west": { "texture": "#andesite", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
-				"up": { "texture": "#andesite12", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-				"down": { "texture": "#andesite", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+				"north": 	{ "texture": "#surface", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": 	{ "texture": "#surface", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south":	{ "texture": "#surface", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": 	{ "texture": "#surface", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": 		{ "texture": "#surface", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": 	{ "texture": "#surface", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
 			}
 		},
 		{
-			"name": "Cube3",
+			"name": "wood",
 			"from": [ 0.0, 8.0, 0.0 ],
 			"to": [ 16.0, 12.0, 16.0 ],
-			"rotationOrigin": [ 0.0, 8.0, 0.0 ],
 			"faces": {
-				"north": { "texture": "#oak1", "uv": [ 0.0, 3.0, 16.0, 16.0 ], "autoUv": false },
-				"east": { "texture": "#oak1", "uv": [ 0.0, 2.0, 16.0, 6.0 ] },
-				"south": { "texture": "#oak1", "uv": [ 0.0, 2.0, 16.0, 6.0 ] },
-				"west": { "texture": "#oak1", "uv": [ 0.0, 2.0, 16.0, 6.0 ] },
-				"up": { "texture": "#oak1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
-				"down": { "texture": "#oak1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+				"north": 	{ "texture": "#wood", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": 	{ "texture": "#wood", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": 	{ "texture": "#wood", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": 	{ "texture": "#wood", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": 		{ "texture": "#wood", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": 	{ "texture": "#wood", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
 			}
 		}
 	]}

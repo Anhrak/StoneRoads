@@ -1,4 +1,13 @@
 {
+	"code": "cobbledpath",
+	"variantgroups": [ { "code": "rock", "states": ["Andesite", "Claystone", "Sandstone", "Granite", "Limestone", "Chalk", "Chert", "Slate", "Shale", "Basalt", "Bauxite", "Phyllite", "Conglomerate", "Peridotite"] } ],
+	"attributes": { "mapColorCode": "road", "liquidBarrierOnSides": [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ] },
+	"shape": "stoneroads:block/stonepath",
+	"textures": { "surface": "block/gravel/{rock}"}
+
+}
+
+{
 	code: "stonepath",
 	variantgroups: [ {code: "stone", states: ["Andesite", "Claystone", "Sandstone", "Granite", "Limestone", "Chalk", "Chert", "Slate", "Shale", "Basalt", "Bauxite", "Phyllite", "Conglomerate", "Peridotite"} ],
 	attributes: {

@@ -2,13 +2,13 @@
     {
         "ingredientPattern": "SS,CG",
         "ingredients": {
-            "G": { "type": "block", "code": "<EDI for Ashlar bricks>", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
-            "S": { "type": "block", "code": "<EDI for Ashlar bricks>", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+            "G": { "type": "block", "code": "<EDI for stone>", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+            "S": { "type": "block", "code": "<EDI for gravel>", "name": "filling", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
             "C": { "type": "item", "code": "<EDI for Clay>", "quantity": 1 }
         },
         "width": 2,
         "height": 2,
-        "output": { "type": "block", "code": "stoneroads:cobbledpath-{rock}", "quantity": 2}
+        "output": { "type": "block", "code": "stoneroads:cobbledpath-{rock}-{filling}", "quantity": 2}
     },
     {
         "ingredientPattern": "P",

@@ -6,7 +6,7 @@
 	"textureWidth": 32,
 	"textureHeight": 16,
 	"textures": {
-		"sign": "block/wood/signpost/front"
+		"sign": "game:block/wood/signpost/front"
 	},
 	"elements": [
 		{
