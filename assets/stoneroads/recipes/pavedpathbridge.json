@@ -2,32 +2,32 @@
     {
         "ingredientPattern": "AAA,MGS,WWW",
         "ingredients": {
-            "A": { "type": "item", "code": "<EDI for Ashlar bricks>", "quantity": 2, "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
-            "G": { "type": "block", "code": "<EDI for Ashlar bricks>", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
-            "S": { "type": "block", "code": "<EDI for Ashlar bricks>", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
-            "M": { "type": "item", "code": "<EDI for Mortar>", "quantity": 1 },
-            "W": { "wood": "block", "code": "<EDI for Wood>"}
+            "A": { "type": "item", "code": "game:stonebrick-*", "quantity": 2, "name": "surface", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+            "G": { "type": "block", "code": "game:gravel-*", "name": "filling", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+            "S": { "type": "block", "code": "game:sand-*", "name": "filling", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+            "M": { "type": "item", "code": "game:mortar", "quantity": 2 },
+            "W": { "wood": "block", "code": "game:planks-*"}
         },
         "width": 3,
         "height": 3,
-        "output": { "type": "block", "code": "stoneroads:pavedpathbridge-{rock}", "quantity": 3}
+        "output": { "type": "block", "code": "stoneroads:pavedpathbridge-{surface}-{filling}", "quantity": 3}
     },
     {
         "ingredientPattern": "P",
         "ingrdients": {
-            "P": { "type": "block", "code": "stoneroads:pavedpathbridge-*", "name": "rock" }
+            "P": { "type": "block", "code": "stoneroads:pavedpathbridge-*", "name": "types" }
         },
         "width": 1,
         "height": 1,
-        "output": { "type": "block", "code": "stoneroads:pavedpathbridgelower-{rock}"}
+        "output": { "type": "block", "code": "stoneroads:pavedpathbridgelower-{types}"}
     },
     {
         "ingredientPattern": "S",
         "ingredients": {
-            "S": { "type": "block", "code": "stoneroads:pavedpathbridgelower-*", "name": "rock" }
+            "S": { "type": "block", "code": "stoneroads:pavedpathbridgelower-*", "name": "types" }
         },
         "width": 1,
         "height": 1,
-        "output": { "type": "block", "code": "stoneroads:pavedpathbridge-{rock}"}
+        "output": { "type": "block", "code": "stoneroads:pavedpathbridge-{types}"}
     }
 ]
