@@ -1,10 +1,11 @@
 [
     {
-        "ingredientPattern": "HR_,CR_,_R_",
+        "ingredientPattern": "HW_,CR_,_R_",
         "ingredients": {
-            "R": { "type": "block", "code": "<EDI for Ashlar bricks>", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
+            "R": { "type": "block", "code": "<EDI for Ashlar bricks>", "name": "rock", "quantity": 2, "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] },
 	    	"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true },
-	    	"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true }
+	    	"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true },
+            "W": { "wood": "block", "code": "game:planks-*"}
         },
         "width": 3,
         "height": 3,
