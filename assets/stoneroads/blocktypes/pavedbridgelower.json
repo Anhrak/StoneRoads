@@ -1,11 +1,11 @@
 {
 	"code": "pavedbridgelower",
 	"variantgroups": [
-		{ "code": "surface", "states": ["Andesite", "Claystone", "Sandstone", "Granite", "Limestone", "Chalk", "Chert", "Slate", "Shale", "Basalt", "Bauxite", "Phyllite", "Conglomerate", "Peridotite"] }
-		{ "code": "filling", "states": ["Andesite", "Claystone", "Sandstone", "Granite", "Limestone", "Chalk", "Chert", "Slate", "Shale", "Basalt", "Bauxite", "Phyllite", "Conglomerate", "Peridotite"] }
+		{ "code": "surface", "states": [ "Andesite", "Claystone", "Sandstone", "Granite", "Limestone", "Chalk", "Chert", "Slate", "Shale", "Basalt", "Bauxite", "Phyllite", "Conglomerate", "Peridotite"] },
+		{ "code": "filling", "states": [ "Andesite", "Claystone", "Sandstone", "Granite", "Limestone", "Chalk", "Chert", "Slate", "Shale", "Basalt", "Bauxite", "Phyllite", "Conglomerate", "Peridotite"] }
 		],
 	"attributes": { "mapColorCode": "road", "liquidBarrierOnSides": [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ] },
-	"shape": "stoneroads:block/stonepathbridgelower",
+	"shape": "stoneroads:stonepathbridgelower",
 	"textures": {
 		"surface": "game:block/stone/cobblestone/fanned/{surface}1",
 		"filling": "game:block/stone/sand/{filling}",

@@ -1,0 +1,29 @@
+{
+	"code": "stonepillarbase",
+	"variantgroups": [
+		{ "code": "rock", "states": [ "Andesite", "Claystone", "Sandstone", "Granite", "Limestone", "Chalk", "Chert", "Slate", "Shale", "Basalt", "Bauxite", "Phyllite", "Conglomerate", "Peridotite"] }
+		],
+	"attributes": { "mapColorCode": "road", "liquidBarrierOnSides": [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ] },
+	"shape": "stoneroads:stonepillarbase",
+	"textures": {
+		"rock": "game:block/stone/sand/{rock}"
+		},
+	"resistance": 2.4,
+	"sideopaque": {
+		"all": false,
+		"filling": false
+		},
+	"sidesolid": {
+		"all": false,
+		"surface": false
+		},
+	"selectionbox": { "x1": 0, "y1": 0, "z1":0, "x2": 1, "y2": 1, "z2": 1 },
+	"collisionbox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1 },
+	"drops": [ { "type": "block", "code": "stoneroads:stonepillarbase-{rock}" } ],
+	"sounds": {
+		"place": "game:block/stone",
+		"break": "game:block/stone",
+		"hit": "game:block/stone",
+		"walk": "game:walk/stone"
+		}
+}
